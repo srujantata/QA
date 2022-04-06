@@ -51,6 +51,10 @@ public interface Parser {
 我们来改造一下
 
 类定义如下，这样定义findAction方法后，确保无论用户输入什么，都不会返回null对象：
+
+
+
+
 ```java
 public class MyParser implements Parser {
   private static Action DO_NOTHING = new Action() {
